@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <title>Unit Converter</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="header" >
+            <h1> Conversion du sytème métrique/impérial </h1>
+            <input type="number" placeholder ="0" id="input-el">
+            <button id="convert">Convertir</button>
+        </div>
+        
+           
+            <div id="length" class="converterBox">
+                <h2> Taille (Metres/Pieds) </h2>
+                <p class="subtitle"> 1 pied = 0.3 mètres & pied = feet </p>
+                <p id="lengthAnswer"> 0 mètres = 0 pieds | 0 pieds = 0 mètres</p>
+            </div>
+            
+            <div id="volume" class="converterBox">
+                <h2> Volume (Litres/Gallons) </h2>
+                <p class="subtitle"> 1 gallon = 3.8 mètres & gallon = gallon </p>
+                <p id="volumeAnswer">0 litres = 0 gallons | 0 gallons = 0 litres</p>    
+            </div>
+            
+            <div id="mass" class="converterBox">
+                <h2> Poid (Kilogrames/Livres)</h2>
+                <p class="subtitle"> 1 livre = 0.5 kilo & livre = pound </p>
+                <p id="massAnswer">0 kilos = 0 livres | 0 pounds = 0 livres</p>          
+            </div> 
+                    
+            
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
